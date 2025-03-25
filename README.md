@@ -1,7 +1,6 @@
 # Tree
 ```sh
 .
-├── buf.gen.yaml
 ├── buf.lock
 ├── buf.yaml
 ├── Makefile
