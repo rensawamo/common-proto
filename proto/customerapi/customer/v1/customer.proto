@@ -3,6 +3,7 @@ syntax = "proto3";
 package customer.v1;
 
 import "common/v1/common.proto";
+import "google/protobuf/timestamp.proto";
 
 message Customer {
     string id = 1;
