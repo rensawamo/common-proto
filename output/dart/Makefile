@@ -1,4 +1,3 @@
-
 .PHONY: gen
 gen:
 	buf generate -v --debug  \
