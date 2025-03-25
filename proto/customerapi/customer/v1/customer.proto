@@ -1,0 +1,12 @@
+syntax = "proto3";
+
+package customer.v1;
+
+import "common/v1/common.proto";
+
+message Customer {
+    string id = 1;
+    string name = 2;
+    common.v1.Prefecture hometown = 3;
+    
+}
