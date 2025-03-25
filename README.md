@@ -1,3 +1,29 @@
+# Tree
+```sh
+.
+├── buf.gen.yaml
+├── buf.lock
+├── buf.yaml
+├── Makefile
+├── README.md
+├── proto
+│   ├── common
+│   │   └── common/v1
+│   │       └── common.proto
+│   ├── customerapi
+│   │   └── customer/v1
+│   │       └── customer.proto
+│   └── employeeapi
+│       └── employee/v1
+│           └── employee.proto
+└── output/typescript
+    ├── gen
+    ├── Makefile
+    ├── README.md
+    └── buf.gen.yaml
+
+```
+
 
 # Set up　buf.yaml
 ```sh
