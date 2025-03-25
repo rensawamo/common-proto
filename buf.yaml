@@ -3,14 +3,12 @@ version: v2
 breaking:
   use:
     - PACKAGE
+lint:
+  use:
+    - STANDARD
 modules:
   - path: proto/common
-    name: buf.build/acme/common
   - path: proto/customerapi
-    name: buf.build/acme/customer
   - path: proto/employeeapi
-    name: buf.build/acme/employee
-
 deps:
   - buf.build/googleapis/googleapis
-  - buf.build/envoyproxy/protoc-gen-validate
